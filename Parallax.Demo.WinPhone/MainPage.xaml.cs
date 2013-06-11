@@ -24,7 +24,7 @@ namespace Parallax.Demo.WinPhone
         private void OnAccelerometerHelperReadingChanged(object sender, AccelerometerHelperReadingEventArgs e)
         {
             var x = e.AverageAcceleration.X * -64.0;
-            var y = e.AverageAcceleration.Y * -64.0;
+            var y = e.AverageAcceleration.Y * 64.0;
 
             Dispatcher.BeginInvoke(() =>
             {
