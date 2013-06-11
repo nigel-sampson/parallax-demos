@@ -1,2 +1,1 @@
-parallax-demos
-==============
+Parallax Demos==============A quick demonstration how to achieve the parallax background effect seen in the launch of iOS 7 on Windows Phone.
